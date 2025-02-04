@@ -8,10 +8,82 @@
 body{
     display: flex;
     flex-direction: column;
-    min-height: 200vh;
+    min-height: 300vh;
 }
 .container{
+    width: 1420px;
     margin: 0 auto;
     padding-left: 5px;
     padding-right: 5px;
+}
+
+.drug__general {
+    display: flex;
+    gap: 0px;
+}
+.drug__boxImg {
+}
+.drug__img {
+    width: 720px;
+    height: 428px;
+}
+.drug__title {
+    font-size: 30px;
+    font-weight: 700;
+    margin: 0 30px;
+    margin-bottom: 20px;
+    margin-top: -30px;
+}
+.drug__text {
+    font-size: 14px;
+    font-weight: 400;
+    margin: 0 30px;
+    color: #828282;
+}
+.drug__box {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    grid-gap:  px;
+}
+.drug__boxText {
+}
+.drug__image {
+    width: 358px;
+    height: 220px;
+}
+.drug__subject {
+    font-size: 16px;
+    font-weight: 700;
+    margin: 0 30px; 
+    margin-bottom: 10px;
+    margin-top: -20px;
+}
+
+
+.helper{
+    margin-top: 20px;
+}
+.helper__general{
+    display: grid;
+    grid-template-columns: repeat(4 , auto);
+}
+.helper__img{
+    width: 358px;
+    height: 220px;
+}
+.helper__subject{
+    font-size: 16px;
+    font-weight: 700;
+    margin: 0 30px;  
+    margin-top: -25px;
+    margin-bottom: 10px;
+}
+.helper__text{
+    font-size: 14px;
+    font-weight: 400;
+    margin: 0 30px;
+    color: #828282;
+}
+.helper__box{
+    margin-bottom: 10px;
 }
